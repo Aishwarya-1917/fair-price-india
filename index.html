@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fair Price India</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">Fair Price India</div>
+
+<div class="container">
+
+    <!-- ================= TRANSPORT ================= -->
+    <div class="card">
+        <h2>🚕 Transport</h2>
+
+        <label>From:</label>
+        <select id="from">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Kolkata</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Hyderabad</option>
+            <option>Jaipur</option>
+            <option>Lucknow</option>
+            <option>Pune</option>
+            <option>Ahmedabad</option>
+            <option>Chandigarh</option>
+            <option>Bhubaneswar</option>
+            <option>Guwahati</option>
+            <option>Asansol</option>
+        </select>
+
+        <label>To:</label>
+        <select id="to">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Kolkata</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Hyderabad</option>
+            <option>Jaipur</option>
+            <option>Lucknow</option>
+            <option>Pune</option>
+            <option>Ahmedabad</option>
+            <option>Chandigarh</option>
+            <option>Bhubaneswar</option>
+            <option>Guwahati</option>
+            <option>Asansol</option>
+        </select>
+
+        <button onclick="showTransport()">Check Ride</button>
+
+        <div id="transportResult"></div>
+    </div>
+
+    <!-- ================= SHOPPING ================= -->
+    <div class="card">
+        <h2>🛍️ Shopping</h2>
+
+        <label>City:</label>
+        <select id="shopCity">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Kolkata</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Hyderabad</option>
+            <option>Jaipur</option>
+            <option>Lucknow</option>
+            <option>Pune</option>
+            <option>Ahmedabad</option>
+            <option>Chandigarh</option>
+            <option>Bhubaneswar</option>
+            <option>Guwahati</option>
+            <option>Asansol</option>
+        </select>
+
+        <button onclick="showShopping()">Explore</button>
+
+        <div id="shoppingResult"></div>
+    </div>
+
+    <!-- ================= FOOD ================= -->
+    <div class="card">
+        <h2>🍽️ Food</h2>
+
+        <label>City:</label>
+        <select id="foodCity">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Kolkata</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Hyderabad</option>
+            <option>Jaipur</option>
+            <option>Lucknow</option>
+            <option>Pune</option>
+            <option>Ahmedabad</option>
+            <option>Chandigarh</option>
+            <option>Bhubaneswar</option>
+            <option>Guwahati</option>
+            <option>Asansol</option>
+        </select>
+
+        <button onclick="showFood()">Find Food</button>
+
+        <div id="foodResult"></div>
+    </div>
+
+    <!-- ================= HOTEL ================= -->
+    <div class="card">
+        <h2>🏨 Hotel</h2>
+
+        <label>City:</label>
+        <select id="hotelCity">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Kolkata</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Hyderabad</option>
+            <option>Jaipur</option>
+            <option>Lucknow</option>
+            <option>Pune</option>
+            <option>Ahmedabad</option>
+            <option>Chandigarh</option>
+            <option>Bhubaneswar</option>
+            <option>Guwahati</option>
+            <option>Asansol</option>
+        </select>
+
+        <button onclick="showHotel()">Find Hotel</button>
+
+        <div id="hotelResult"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
